@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const Popup = ({ isVisible, title, text, btnText, onStartQuiz }) => {
-  // Set popup display style
   const display = isVisible ? "flex" : "none";
 
   return ReactDOM.createPortal(
